@@ -21,7 +21,7 @@
 ZMK_COMBO(lbrace, &kp LBRC,     LT1 LT2,     DEF, COMBO_TERM_FAST)
 ZMK_COMBO(lpar,   &kp LPAR,     LM1 LM2,     DEF, COMBO_TERM_FAST)
 ZMK_COMBO(lbkt,   &kp LBKT,     LM2 LM3,     DEF, COMBO_TERM_FAST)
-ZMK_COMBO(arrow_right, &macro_dash_arrow, LT2 RT3, DEF, COMBO_TERM_FAST)
+ZMK_COMBO(arrow_right, &macro_dash_arrow, LT2 LT3, DEF, COMBO_TERM_FAST)
 
 /// ZMK_COMBO(esc,   &kp ESC,       LT3 LT2,     DEF, COMBO_TERM_FAST)
 /// ZMK_COMBO(ret,   &kp RETURN,    LT2 LT1,     DEF, COMBO_TERM_FAST)
