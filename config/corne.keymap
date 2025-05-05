@@ -136,28 +136,24 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
       &trans      &trans             &trans         &trans         &trans           &trans       &trans           &kp LG(LEFT_BRACE)   &kp LG(RIGHT_BRACE)   &trans            &kp DOWN_ARROW   &kp RIGHT_ARROW
                                                     &trans         &trans           &trans       &trans           &trans               &mo FUN_L
                     >;
-
-                    sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
                 };
 
                 adj_layer {
                     bindings = <
-//        ┌──────┬─────────────┬──────────┬──────────┬──────────┬──────────┐   ┌──────┬──────┬──────┬──────────┬──────────┬───────┐
-//        │      │ to QWERTY_L │          │          │          │          │   │      │ pscr │      │ epwr_ on │ epwr_ on │       │
-//        ├──────┼─────────────┼──────────┼──────────┼──────────┼──────────┤   ├──────┼──────┼──────┼──────────┼──────────┼───────┤
-//        │      │  bt_sel 0   │ bt_sel 1 │ bt_sel 2 │ bt_sel 3 │ bt_sel 4 │   │ mute │ vold │ volu │          │          │ capsw │
-//        ├──────┼─────────────┼──────────┼──────────┼──────────┼──────────┤   ├──────┼──────┼──────┼──────────┼──────────┼───────┤
-//        │ boot │ &sys_reset  │          │ out_ usb │ out_ ble │          │   │      │      │      │          │          │       │
-//        └──────┴─────────────┴──────────┼──────────┼──────────┼──────────┤   ├──────┼──────┼──────┼──────────┴──────────┴───────┘
-//                                        │ mo FUN_L │          │          │   │      │      │      │
-//                                        └──────────┴──────────┴──────────┘   └──────┴──────┴──────┘
-      &none         &to QWERTY_L   &trans         &trans         &none          &none              &none        &kp PRINTSCREEN   &none          &ext_power EP_OFF   &ext_power EP_ON   &none
-      &none         &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4       &kp C_MUTE   &kp C_VOL_DN      &kp C_VOL_UP   &none               &none              &caps_word
-      &bootloader   &sys_reset     &none          &out OUT_USB   &out OUT_BLE   &none              &none        &none             &none          &none               &none              &trans
-                                                  &mo FUN_L      &trans         &trans             &trans       &trans            &trans
+//        ┌─────┬──────────┬──────────┬──────────┬──────────┬──────────┐   ┌──────┬──────┬──────┬─────┬─────┬───────┐
+//        │     │          │          │          │          │          │   │      │      │      │     │     │       │
+//        ├─────┼──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────┼──────┼──────┼─────┼─────┼───────┤
+//        │     │ bt_sel 0 │ bt_sel 1 │ bt_sel 2 │ bt_sel 3 │ bt_sel 4 │   │ mute │ vold │ volu │     │     │ capsw │
+//        ├─────┼──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────┼──────┼──────┼─────┼─────┼───────┤
+//        │     │          │          │          │          │          │   │      │      │      │     │     │       │
+//        └─────┴──────────┴──────────┼──────────┼──────────┼──────────┤   ├──────┼──────┼──────┼─────┴─────┴───────┘
+//                                    │ mo FUN_L │          │          │   │      │      │      │
+//                                    └──────────┴──────────┴──────────┘   └──────┴──────┴──────┘
+      &none   &trans         &trans         &trans         &trans         &trans             &trans       &trans         &trans         &trans   &trans   &trans
+      &none   &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4       &kp C_MUTE   &kp C_VOL_DN   &kp C_VOL_UP   &none    &none    &caps_word
+      &none   &none          &none          &none          &none          &none              &none        &none          &none          &none    &none    &trans
+                                            &mo FUN_L      &trans         &trans             &trans       &trans         &trans
                     >;
-
-                    sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
                 };
 
                 fun_layer {
@@ -176,8 +172,6 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
       &trans      &trans   &trans     &trans       &trans   &trans       &trans   &kp F1   &kp F2   &kp F3   &kp F12   &trans
                                       &trans       &trans   &trans       &trans   &trans   &trans
                     >;
-
-                    sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
                 };
         };
 };
