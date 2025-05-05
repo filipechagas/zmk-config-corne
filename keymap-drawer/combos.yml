@@ -1,0 +1,9 @@
+combos:
+  - { p: [13, 14], k: "(", l: ["default"] }
+  - { p: [14, 15], k: "[", l: ["default"] }
+  - { p: [19, 20], k: ")", l: ["default"] }
+  - { p: [20, 21], k: "]", l: ["default"] }
+  - { p: [30, 31], k: "\\", l: ["default"] }
+  - { p: [31, 32], k: "|", l: ["default"] }
+  - { p: [7, 8], k: "->", l: ["default"] }
+  - { p: [8, 9], k: "=>", l: ["default"] }
