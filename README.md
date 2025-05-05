@@ -3,8 +3,7 @@
 ![CleanShot 2025-05-05 at 15 15 37@2x](https://github.com/user-attachments/assets/8c125c85-62d3-428f-a39c-4676667129b3)
 
 ## Layers
-
-![CleanShot 2025-05-05 at 15 11 06@2x](https://github.com/user-attachments/assets/95240302-9a5a-4bc4-83b7-21aeb5de2150)
+![my_keymap (1)](https://github.com/user-attachments/assets/e2628240-24f9-4b01-b779-4edb9239b2a0)
 
 ## Timewless home row mod
 
