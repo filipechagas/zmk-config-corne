@@ -4,8 +4,12 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "../zmk-nodefree-config/include/zmk-helpers/helper.h"
-#include "../zmk-nodefree-config/include/zmk-helpers/key-labels/42.h"                // keyposition helpers
+
+#include <zmk-nodefree-config/include/zmk-helpers/helper.h>
+#include <zmk-nodefree-config/include/zmk-helpers/key-labels/42.h>
+
+/* #include "../zmk-nodefree-config/include/zmk-helpers/helper.h" */
+/* #include "../zmk-nodefree-config/include/zmk-helpers/key-labels/42.h"                // keyposition helpers */
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>

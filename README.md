@@ -1,3 +1,11 @@
+# Corne ZMK Firmware
+
+![CleanShot 2025-05-05 at 15 15 37@2x](https://github.com/user-attachments/assets/8c125c85-62d3-428f-a39c-4676667129b3)
+
+## Layers
+
+![CleanShot 2025-05-05 at 15 11 06@2x](https://github.com/user-attachments/assets/95240302-9a5a-4bc4-83b7-21aeb5de2150)
+
 ## Timewless home row mod
 
 I'm copying the implementation of timeless homerow mods from https://github.com/urob/zmk-config/tree/main?tab=readme-ov-file#timeless-homerow-mods
