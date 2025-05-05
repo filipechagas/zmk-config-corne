@@ -1,0 +1,21 @@
+// Macro definitions 
+
+// Define the macro behavior for "->"
+ZMK_BEHAVIOR(macro_dash_arrow, macro,
+    bindings = <
+        &macro_press   &kp MINUS
+        &macro_release &kp MINUS
+        &macro_press   &kp GT
+        &macro_release &kp GT
+    >;
+)
+
+// Define the macro behavior for "=>"
+ZMK_BEHAVIOR(macro_equal_arrow, macro,
+    bindings = <
+        &macro_press   &kp EQUAL
+        &macro_release &kp EQUAL
+        &macro_press   &kp GT
+        &macro_release &kp GT
+    >;
+)

@@ -16,12 +16,12 @@
 #define COMBO_TERM_FAST 18
 #define COMBO_TERM_SLOW 30
 
+
 /* Horizontal combos - left hand */
+ZMK_COMBO(lbrace, &kp LBRC,     LT1 LT2,     DEF, COMBO_TERM_FAST)
 ZMK_COMBO(lpar,   &kp LPAR,     LM1 LM2,     DEF, COMBO_TERM_FAST)
 ZMK_COMBO(lbkt,   &kp LBKT,     LM2 LM3,     DEF, COMBO_TERM_FAST)
-
-ZMK_COMBO(arrow_right, &macro_tap(TAP(MINUS), TAP(GT)), RT1 RT2, DEF, COMBO_TERM_FAST)
-ZMK_COMBO(arrow_equal, &macro_tap(TAP(EQUAL), TAP(GT)), RT2 RT3, DEF, COMBO_TERM_FAST)
+ZMK_COMBO(arrow_right, &macro_dash_arrow, LT2 RT3, DEF, COMBO_TERM_FAST)
 
 /// ZMK_COMBO(esc,   &kp ESC,       LT3 LT2,     DEF, COMBO_TERM_FAST)
 /// ZMK_COMBO(ret,   &kp RETURN,    LT2 LT1,     DEF, COMBO_TERM_FAST)
@@ -31,10 +31,12 @@ ZMK_COMBO(arrow_equal, &macro_tap(TAP(EQUAL), TAP(GT)), RT2 RT3, DEF, COMBO_TERM
 /// ZMK_COMBO(paste, &kp LS(INS),   LB2 LB1,     DEF, COMBO_TERM_FAST)
 
 /* Horizontal combos - right hand */
+ZMK_COMBO(rbrace, &kp RBRC,     RT1 RT2,     DEF, COMBO_TERM_FAST)
 ZMK_COMBO(rpar,   &kp RPAR,     RM1 RM2,     DEF, COMBO_TERM_FAST)
 ZMK_COMBO(rbkt,   &kp RBKT,     RM2 RM3,     DEF, COMBO_TERM_FAST)
 ZMK_COMBO(bslh,   &kp BSLH,     RB1 RB2,     DEF, COMBO_TERM_FAST)
 ZMK_COMBO(pipe,   &kp PIPE,     RB2 RB3,     DEF, COMBO_TERM_FAST)
+ZMK_COMBO(arrow_equal, &macro_equal_arrow, RT2 RT3, DEF, COMBO_TERM_FAST)
 
 /* ZMK_COMBO(lpar,   &kp LPAR,     RT1 RT2,     DEF, COMBO_TERM_FAST) */
 /* ZMK_COMBO(rpar,   &kp RPAR,     RT2 RT3,     DEF, COMBO_TERM_FAST) */
