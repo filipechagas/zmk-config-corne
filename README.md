@@ -4,7 +4,7 @@
 
 ## Layers
 
-![my_keymap(2)](https://github.com/user-attachments/assets/1b4803ac-9720-4cfd-8437-ee2f7a679ab3)
+![keymap](https://github.com/user-attachments/assets/f51ec8db-693b-41ac-945c-bf3551a92346)
 
 ## Timewless home row mod
 
