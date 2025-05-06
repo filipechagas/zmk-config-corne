@@ -28,7 +28,7 @@ ZMK_COMBO(lbkt,         &kp LBKT,           LM2 LM3,  DEF,  COMBO_TERM_FAST)
 ZMK_COMBO(minus,        &kp MINUS,          LM3 LM4,  DEF,  COMBO_TERM_FAST)
 
 /* Bottom */
-ZMK_COMBO(under,        &kp UNDER,          RB1 RB2,     DEF, COMBO_TERM_SLOW)
+ZMK_COMBO(under,        &kp UNDER,          LB1 LB2,     DEF, COMBO_TERM_SLOW)
 
 /* Horizontal combos - right hand */
 /* Top */
