@@ -83,7 +83,7 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
 //                                                  └─────────────┴─────────────┴─────────────┘   └─────┴─────────────┴───────────────┘
       &trave          &kp Q          &kp W             &kp E             &kp R           &kp T                    &kp Y       &kp U           &kp I              &kp O         &kp P             &kp BSPC
       &mt LCTRL ESC   &hml LCTRL A   &hml LEFT_ALT S   &hml LEFT_WIN D   &hml LSHIFT F   &kp G                    &kp H       &hmr RSHIFT J   &hmr RIGHT_WIN K   &hmr RALT L   &hmr RCTRL SEMI   &kp SINGLE_QUOTE
-      &kp LSHFT       &kp Z          &kp X             &kp C             &kp V           &kp B                    &kp N       &kp M           &kp COMMA          &kp DOT       &kp FSLH          &kp ESC
+      &kp LSHFT       &kp Z          &kp X             &kp C             &kp V           &kp B                    &kp N       &kp M           &kp COMMA          &kp DOT       &kp FSLH          &kp RSHFT
                                                        &mo NAV_L         &mo NUM_L       &mt LEFT_WIN SPACE       &kp ENTER   &mo SYM_L       &lt ADJ_L BSPC
                         >;
                 };
