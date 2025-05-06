@@ -9,7 +9,7 @@
 
 #define DEF 0
 
-// use require-prior-idle-ms for combos
+/* use require-prior-idle-ms for combos */
 #undef COMBO_HOOK
 #define COMBO_HOOK require-prior-idle-ms = <150>;
 
@@ -18,10 +18,32 @@
 
 
 /* Horizontal combos - left hand */
-ZMK_COMBO(lbrace, &kp LBRC,     LT1 LT2,     DEF, COMBO_TERM_FAST)
-ZMK_COMBO(lpar,   &kp LPAR,     LM1 LM2,     DEF, COMBO_TERM_FAST)
-ZMK_COMBO(lbkt,   &kp LBKT,     LM2 LM3,     DEF, COMBO_TERM_FAST)
-ZMK_COMBO(arrow_right, &macro_dash_arrow, LT2 LT3, DEF, COMBO_TERM_FAST)
+/* Top */
+ZMK_COMBO(lbrace,       &kp LBRC,           LT1 LT2,  DEF,  COMBO_TERM_FAST)
+ZMK_COMBO(arrow_right,  &macro_dash_arrow,  LT2 LT3,  DEF,  COMBO_TERM_FAST)
+
+/* Mid */
+ZMK_COMBO(lpar,         &kp LPAR,           LM1 LM2,  DEF,  COMBO_TERM_FAST)
+ZMK_COMBO(lbkt,         &kp LBKT,           LM2 LM3,  DEF,  COMBO_TERM_FAST)
+ZMK_COMBO(minus,        &kp MINUS,          LM3 LM4,  DEF,  COMBO_TERM_FAST)
+
+/* Bottom */
+ZMK_COMBO(under,        &kp UNDER,          RB1 RB2,     DEF, COMBO_TERM_SLOW)
+
+/* Horizontal combos - right hand */
+/* Top */
+ZMK_COMBO(rbrace,       &kp RBRC,            RT1 RT2,  DEF,  COMBO_TERM_FAST)
+ZMK_COMBO(arrow_equal,  &macro_equal_arrow,  RT2 RT3,  DEF,  COMBO_TERM_FAST)
+ZMK_COMBO(equal,        &kp EQUAL,           RT3 RT4,  DEF,  COMBO_TERM_SLOW)
+
+/* Mid */
+ZMK_COMBO(rpar,  &kp RPAR,  RM1 RM2,  DEF,  COMBO_TERM_FAST)
+ZMK_COMBO(rbkt,  &kp RBKT,  RM2 RM3,  DEF,  COMBO_TERM_FAST)
+ZMK_COMBO(plus,  &kp PLUS,  RT1 RM1,  DEF,  COMBO_TERM_SLOW)
+
+/* Bottom */
+ZMK_COMBO(bslh,  &kp BSLH,  RB1 RB2,  DEF,  COMBO_TERM_FAST)
+ZMK_COMBO(pipe,  &kp PIPE,  RB2 RB3,  DEF,  COMBO_TERM_FAST)
 
 /// ZMK_COMBO(esc,   &kp ESC,       LT3 LT2,     DEF, COMBO_TERM_FAST)
 /// ZMK_COMBO(ret,   &kp RETURN,    LT2 LT1,     DEF, COMBO_TERM_FAST)
@@ -29,15 +51,6 @@ ZMK_COMBO(arrow_right, &macro_dash_arrow, LT2 LT3, DEF, COMBO_TERM_FAST)
 /// ZMK_COMBO(cut,   &kp LG(X),     LB3 LB1,     DEF, COMBO_TERM_FAST)
 /// ZMK_COMBO(copy,  &kp LC(INS),   LB3 LB2,     DEF, COMBO_TERM_FAST)
 /// ZMK_COMBO(paste, &kp LS(INS),   LB2 LB1,     DEF, COMBO_TERM_FAST)
-
-/* Horizontal combos - right hand */
-ZMK_COMBO(rbrace, &kp RBRC,     RT1 RT2,     DEF, COMBO_TERM_FAST)
-ZMK_COMBO(rpar,   &kp RPAR,     RM1 RM2,     DEF, COMBO_TERM_FAST)
-ZMK_COMBO(rbkt,   &kp RBKT,     RM2 RM3,     DEF, COMBO_TERM_FAST)
-ZMK_COMBO(bslh,   &kp BSLH,     RB1 RB2,     DEF, COMBO_TERM_FAST)
-ZMK_COMBO(pipe,   &kp PIPE,     RB2 RB3,     DEF, COMBO_TERM_FAST)
-ZMK_COMBO(arrow_equal, &macro_equal_arrow, RT2 RT3, DEF, COMBO_TERM_FAST)
-
 /* ZMK_COMBO(lpar,   &kp LPAR,     RT1 RT2,     DEF, COMBO_TERM_FAST) */
 /* ZMK_COMBO(rpar,   &kp RPAR,     RT2 RT3,     DEF, COMBO_TERM_FAST) */
 /**/
