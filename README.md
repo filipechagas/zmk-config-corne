@@ -1,6 +1,6 @@
 # Corne ZMK Firmware
 
-![CleanShot 2025-05-05 at 15 15 37@2x](https://github.com/user-attachments/assets/8c125c85-62d3-428f-a39c-4676667129b3)
+![KeymapDrawing](./keymap-drawer/keymap.png)
 
 ## Layers
 

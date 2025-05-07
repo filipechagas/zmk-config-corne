@@ -11,6 +11,7 @@ combos:
   # Horizontal combos – left hand
   - { p: [3, 4], k: "(", l: ["default"] } # lpar
   - { p: [2, 3], k: "[", l: ["default"] } # lbkt
+  - { p: [2, 4], k: "+", l: ["default"] } # plus
   - { p: [27, 28], k: "_", l: ["default"] } # under
   - { p: [26, 27], k: "->", l: ["default"] } # arrow_right
 
@@ -20,6 +21,7 @@ combos:
   # Horizontal combos – right hand
   - { p: [7, 8], k: ")", l: ["default"] } # rpar
   - { p: [8, 9], k: "]", l: ["default"] } # rbkt
+  - { p: [7, 9], k: "-", l: ["default"] } # minus
   - { p: [9, 10], k: "=", l: ["default"] } # equal
   - { p: [31, 32], k: "|", l: ["default"] } # pipe
   - { p: [32, 33], k: "=>", l: ["default"] } # arrow_equal

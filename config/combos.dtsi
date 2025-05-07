@@ -21,6 +21,7 @@
 /* Top */
 ZMK_COMBO(lpar,  &kp LPAR,  LT1 LT2,  DEF,  COMBO_TERM_FAST)
 ZMK_COMBO(lbkt,  &kp LBKT,  LT2 LT3,  DEF,  COMBO_TERM_FAST)
+ZMK_COMBO(plus,  &kp PLUS,  LT1 LT3,  DEF,  COMBO_TERM_SLOW)
 
 
 /* Bottom */
@@ -35,6 +36,7 @@ ZMK_COMBO(minus,  &kp MINUS,  LM1 LB1,  DEF,  COMBO_TERM_FAST)
 ZMK_COMBO(rpar,   &kp RPAR,   RT1 RT2,  DEF,  COMBO_TERM_FAST)
 ZMK_COMBO(rbkt,   &kp RBKT,   RT2 RT3,  DEF,  COMBO_TERM_FAST)
 ZMK_COMBO(equal,  &kp EQUAL,  RT3 RT4,  DEF,  COMBO_TERM_SLOW)
+ZMK_COMBO(minus,  &kp MINUS,  RT1 RT3,  DEF,  COMBO_TERM_SLOW)
 
 /* Bottom */
 ZMK_COMBO(pipe,         &kp PIPE,            RB1 RB2,  DEF,  COMBO_TERM_FAST)
