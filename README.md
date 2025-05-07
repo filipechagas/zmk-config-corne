@@ -4,7 +4,7 @@
 
 ## Layers
 
-![KeymapDrawing](/keymap-drawer/keymap.svg)
+![KeymapDrawing](/keymap-drawer-output/corne.svg)
 
 ## Timewless home row mod
 
