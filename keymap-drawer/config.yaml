@@ -248,5 +248,4 @@ parse_config:
     #define hmr mt
     #include "macros.dtsi"
     #include "combos.dtsi"
-  zmk_additional_includes:
-    - "zmk-nodefree-config"
+  zmk_additional_includes: ["zmk-helpers/include"]
