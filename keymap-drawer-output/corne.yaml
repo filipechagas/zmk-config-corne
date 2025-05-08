@@ -266,16 +266,16 @@ combos:
   k: '['
   l: [default]
 - p: [4, 2]
-  k: +
+  k: '{'
   l: [default]
 - p: [28, 27]
   k: _
   l: [default]
 - p: [27, 26]
-  k: '&macro_dash_arrow'
+  k: ->
   l: [default]
-- p: [16, 28]
-  k: '-'
+- p: [28, 26]
+  k: +
   l: [default]
 - p: [7, 8]
   k: )
@@ -287,17 +287,17 @@ combos:
   k: '='
   l: [default]
 - p: [7, 9]
-  k: '-'
+  k: '}'
   l: [default]
 - p: [31, 32]
   k: '|'
   l: [default]
 - p: [32, 33]
-  k: '&macro_equal_arrow'
+  k: =>
   l: [default]
 - p: [33, 34]
   k: \
   l: [default]
-- p: [19, 31]
-  k: +
+- p: [31, 33]
+  k: '-'
   l: [default]
