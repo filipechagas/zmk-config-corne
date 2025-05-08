@@ -48,6 +48,8 @@ parse_config:
     "&bt BT_SEL 2": { t: "2", h: "$$mdi:bluetooth$$" }
     "&bt BT_SEL 3": { t: "3", h: "$$mdi:bluetooth$$" }
     "&bt BT_SEL 4": { t: "4", h: "$$mdi:bluetooth$$" }
+    "&macro_dash_arrow": "->"
+    "&macro_equal_arrow": "=>"
   sticky_label: sticky
   toggle_label: toggle
   tap_toggle_label: tap-toggle

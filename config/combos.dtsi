@@ -19,33 +19,31 @@
 
 /* Horizontal combos - left hand */
 /* Top */
-ZMK_COMBO(lpar,  &kp LPAR,  LT1 LT2,  DEF,  COMBO_TERM_FAST)
-ZMK_COMBO(lbkt,  &kp LBKT,  LT2 LT3,  DEF,  COMBO_TERM_FAST)
-ZMK_COMBO(plus,  &kp PLUS,  LT1 LT3,  DEF,  COMBO_TERM_SLOW)
+ZMK_COMBO(lpar,    &kp LPAR,  LT1 LT2,  DEF,  COMBO_TERM_FAST)
+ZMK_COMBO(lbkt,    &kp LBKT,  LT2 LT3,  DEF,  COMBO_TERM_FAST)
+ZMK_COMBO(lbrace,  &kp LBRC,  LT1 LT3,  DEF,  COMBO_TERM_SLOW)
 
 
 /* Bottom */
 ZMK_COMBO(under,        &kp UNDER,          LB1 LB2,  DEF,  COMBO_TERM_SLOW)
 ZMK_COMBO(arrow_right,  &macro_dash_arrow,  LB2 LB3,  DEF,  COMBO_TERM_FAST)
-
-/* Vertical combos - left hand */
-ZMK_COMBO(minus,  &kp MINUS,  LM1 LB1,  DEF,  COMBO_TERM_FAST)
+ZMK_COMBO(plus,         &kp PLUS,           LB1 LB3,  DEF,  COMBO_TERM_SLOW)
 
 /* Horizontal combos - right hand */
 /* Top */
-ZMK_COMBO(rpar,   &kp RPAR,   RT1 RT2,  DEF,  COMBO_TERM_FAST)
-ZMK_COMBO(rbkt,   &kp RBKT,   RT2 RT3,  DEF,  COMBO_TERM_FAST)
-ZMK_COMBO(equal,  &kp EQUAL,  RT3 RT4,  DEF,  COMBO_TERM_SLOW)
-ZMK_COMBO(minus,  &kp MINUS,  RT1 RT3,  DEF,  COMBO_TERM_SLOW)
+ZMK_COMBO(rpar,    &kp RPAR,   RT1 RT2,  DEF,  COMBO_TERM_FAST)
+ZMK_COMBO(rbkt,    &kp RBKT,   RT2 RT3,  DEF,  COMBO_TERM_FAST)
+ZMK_COMBO(equal,   &kp EQUAL,  RT3 RT4,  DEF,  COMBO_TERM_SLOW)
+ZMK_COMBO(rbrace,  &kp RBRC,   RT1 RT3,  DEF,  COMBO_TERM_SLOW)
 
 /* Bottom */
 ZMK_COMBO(pipe,         &kp PIPE,            RB1 RB2,  DEF,  COMBO_TERM_FAST)
 ZMK_COMBO(arrow_equal,  &macro_equal_arrow,  RB2 RB3,  DEF,  COMBO_TERM_FAST)
 ZMK_COMBO(bslh,         &kp BSLH,            RB3 RB4,  DEF,  COMBO_TERM_FAST)
+ZMK_COMBO(minus,        &kp MINUS,           RB1 RB3,  DEF,  COMBO_TERM_SLOW)
 
-/* Vertical combos - right hand */
-ZMK_COMBO(plus,  &kp PLUS,  RM1 RB1,  DEF,  COMBO_TERM_SLOW)
-
+/// ZMK_COMBO(minus,  &kp MINUS,  LM1 LB1,  DEF,  COMBO_TERM_FAST)
+/// ZMK_COMBO(plus,  &kp PLUS,  RM1 RB1,  DEF,  COMBO_TERM_SLOW)
 /// ZMK_COMBO(plus,  &kp PLUS,  RT1 RT1,  DEF,  COMBO_TERM_SLOW)
 /// ZMK_COMBO(rbrace,       &kp RBRC,            RT1 RT2,  DEF,  COMBO_TERM_FAST)
 /// ZMK_COMBO(minus,        &kp MINUS,          LT3 LT4,  DEF,  COMBO_TERM_FAST)
