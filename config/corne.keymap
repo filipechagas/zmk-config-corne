@@ -56,22 +56,20 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
     continue-list = <UNDERSCORE MINUS>;
 };
 
+&lt{
+    flavor = "hold-preferred";
+};
+
 / {
+        behaviors {
+            trave: tab_grave {
+                compatible = "zmk,behavior-mod-morph";
+                #binding-cells = <0>;
+                bindings = <&kp TAB>, <&kp GRAVE>;
 
-    behaviors {
-        trave: tab_grave {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp TAB>, <&kp GRAVE>;
-
-            mods = <(MOD_LCTL|MOD_RCTL)>;
+                mods = <(MOD_LCTL|MOD_RCTL)>;
+            };
         };
-    };
-
-    &lt{
-        flavor = "hold-preferred";
-    }
-
 
         keymap {
                 compatible = "zmk,keymap";
