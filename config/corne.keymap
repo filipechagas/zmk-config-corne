@@ -57,7 +57,7 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
 };
 
 &lt{
-    flavor = "hold-preferred";
+    flavor = "balanced";
 };
 
 / {
