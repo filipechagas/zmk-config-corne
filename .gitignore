@@ -1,0 +1,7 @@
+zephyr/
+build/
+output/
+.west/
+modules/
+zmk-helpers/
+zmk/

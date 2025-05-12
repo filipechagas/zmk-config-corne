@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  zmk-build:
+    image: zmkfirmware/zmk-build-arm:3.5-branch
+    volumes:
+      - .:/zmk-config
+      - ./build:/build
+      - ./output:/output
+    working_dir: /zmk-config
+    command: ["./build.sh"]
