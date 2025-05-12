@@ -72,19 +72,19 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
 
                 default_layer {
                         bindings = <
-//        ┌─────────────┬─────────────┬─────────────┬──────────────┬─────────────┬─────────────┐   ┌─────┬───────────────────────┬───────────────┬─────────────┬─────────────┬──────┐
-//        │   &trave    │      Q      │      W      │      E       │      R      │      T      │   │  Y  │           U           │       I       │      O      │      P      │ bspc │
-//        ├─────────────┼─────────────┼─────────────┼──────────────┼─────────────┼─────────────┤   ├─────┼───────────────────────┼───────────────┼─────────────┼─────────────┼──────┤
-//        │ mt lctl esc │ &hml lctl A │ &hml lalt S │ &hml lgui D  │ &hml lsft F │      G      │   │  H  │      &hmr rsft J      │  &hmr rgui K  │ &hmr ralt L │ &hmr rctl ; │  '   │
-//        ├─────────────┼─────────────┼─────────────┼──────────────┼─────────────┼─────────────┤   ├─────┼───────────────────────┼───────────────┼─────────────┼─────────────┼──────┤
-//        │    lsft     │      Z      │      X      │      C       │      V      │      B      │   │  N  │           M           │       ,       │      .      │      /      │ rsft │
-//        └─────────────┴─────────────┴─────────────┼──────────────┼─────────────┼─────────────┤   ├─────┼───────────────────────┼───────────────┼─────────────┴─────────────┴──────┘
-//                                                  │ lt NAV_L tab │ lt NUM_L '  │ mt lgui spc │   │ ent │ lt SYM_L single_quote │ lt ADJ_L bspc │
-//                                                  └──────────────┴─────────────┴─────────────┘   └─────┴───────────────────────┴───────────────┘
-      &trave          &kp Q          &kp W             &kp E             &kp R                    &kp T                    &kp Y       &kp U                    &kp I              &kp O         &kp P             &kp BSPC
-      &mt LCTRL ESC   &hml LCTRL A   &hml LEFT_ALT S   &hml LEFT_WIN D   &hml LSHIFT F            &kp G                    &kp H       &hmr RSHIFT J            &hmr RIGHT_WIN K   &hmr RALT L   &hmr RCTRL SEMI   &kp SINGLE_QUOTE
-      &kp LSHFT       &kp Z          &kp X             &kp C             &kp V                    &kp B                    &kp N       &kp M                    &kp COMMA          &kp DOT       &kp FSLH          &kp RSHFT
-                                                       &lt NAV_L TAB     &lt NUM_L ESC   &mt LEFT_WIN SPACE       &kp ENTER   &lt SYM_L SINGLE_QUOTE   &lt ADJ_L BSPC
+//        ┌─────────────┬─────────────┬─────────────┬──────────────┬──────────────┬─────────────┐   ┌─────┬─────────────┬───────────────┬─────────────┬─────────────┬──────┐
+//        │   &trave    │      Q      │      W      │      E       │      R       │      T      │   │  Y  │      U      │       I       │      O      │      P      │ bspc │
+//        ├─────────────┼─────────────┼─────────────┼──────────────┼──────────────┼─────────────┤   ├─────┼─────────────┼───────────────┼─────────────┼─────────────┼──────┤
+//        │ mt lctl esc │ &hml lctl A │ &hml lalt S │ &hml lgui D  │ &hml lsft F  │      G      │   │  H  │ &hmr rsft J │  &hmr rgui K  │ &hmr ralt L │ &hmr rctl ; │  '   │
+//        ├─────────────┼─────────────┼─────────────┼──────────────┼──────────────┼─────────────┤   ├─────┼─────────────┼───────────────┼─────────────┼─────────────┼──────┤
+//        │    lsft     │      Z      │      X      │      C       │      V       │      B      │   │  N  │      M      │       ,       │      .      │      /      │ rsft │
+//        └─────────────┴─────────────┴─────────────┼──────────────┼──────────────┼─────────────┤   ├─────┼─────────────┼───────────────┼─────────────┴─────────────┴──────┘
+//                                                  │ lt NAV_L esc │ lt NUM_L tab │ mt lgui spc │   │ ent │ lt SYM_L '  │ lt ADJ_L bspc │
+//                                                  └──────────────┴──────────────┴─────────────┘   └─────┴─────────────┴───────────────┘
+      &trave          &kp Q          &kp W             &kp E             &kp R           &kp T                    &kp Y       &kp U                    &kp I              &kp O         &kp P             &kp BSPC
+      &mt LCTRL ESC   &hml LCTRL A   &hml LEFT_ALT S   &hml LEFT_WIN D   &hml LSHIFT F   &kp G                    &kp H       &hmr RSHIFT J            &hmr RIGHT_WIN K   &hmr RALT L   &hmr RCTRL SEMI   &kp SINGLE_QUOTE
+      &kp LSHFT       &kp Z          &kp X             &kp C             &kp V           &kp B                    &kp N       &kp M                    &kp COMMA          &kp DOT       &kp FSLH          &kp RSHFT
+                                                       &lt NAV_L ESC     &lt NUM_L TAB   &mt LEFT_WIN SPACE       &kp ENTER   &lt SYM_L SINGLE_QUOTE   &lt ADJ_L BSPC
                         >;
                 };
                 sym_layer {
