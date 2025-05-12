@@ -1,11 +1,10 @@
 name: Draw ZMK keymaps
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - "config/*.keymap"
-      - "config/*.dtsi"
-      - "keymap-drawer/config.yaml"
+  workflow_run:
+    workflows: ["Build ZMK firmware"]
+    types:
+      - completed
 
 jobs:
   draw:
