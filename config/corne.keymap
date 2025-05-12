@@ -67,6 +67,12 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
             mods = <(MOD_LCTL|MOD_RCTL)>;
         };
     };
+
+    &lt{
+        flavor = "hold-preferred";
+    }
+
+
         keymap {
                 compatible = "zmk,keymap";
 
