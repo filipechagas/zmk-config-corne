@@ -37,11 +37,11 @@ layers:
   - .
   - /
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:arrow-all$$
-  - $$mdi:numeric$$
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:arrow-all$$'}
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:numeric$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-command$$'}
   - $$mdi:keyboard-return$$
-  - $$mdi:symbol$$
+  - {t: '''', h: '$$mdi:symbol$$'}
   - {t: '$$mdi:backspace-outline$$', h: '$$mdi:cog$$'}
   sym:
   - '`'
