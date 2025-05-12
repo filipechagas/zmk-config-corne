@@ -60,6 +60,10 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
     flavor = "tap-unless-interrupted";
 };
 
+&mt{
+    flavor = "tap-unless-interrupted";
+};
+
 / {
         behaviors {
             trave: tab_grave {
