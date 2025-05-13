@@ -97,19 +97,19 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
                 };
                 sym_layer {
                         bindings = <
-//        ┌─────┬───┬───┬─────┬─────┬───┐   ┌─────┬──────┬──────┬──────┬──────┬──────┐
-//        │  `  │ { │ & │  *  │  (  │ } │   │     │      │      │      │      │ bspc │
-//        ├─────┼───┼───┼─────┼─────┼───┤   ├─────┼──────┼──────┼──────┼──────┼──────┤
-//        │ esc │ - │ $ │  %  │  ^  │ | │   │     │ rsft │ rgui │ ralt │ rctl │      │
-//        ├─────┼───┼───┼─────┼─────┼───┤   ├─────┼──────┼──────┼──────┼──────┼──────┤
-//        │     │ ~ │ ! │  @  │  #  │ ) │   │     │      │      │      │      │      │
-//        └─────┴───┴───┼─────┼─────┼───┤   ├─────┼──────┼──────┼──────┴──────┴──────┘
-//                      │     │     │ _ │   │     │      │      │
-//                      └─────┴─────┴───┘   └─────┴──────┴──────┘
+//        ┌─────┬───┬───┬─────┬───┬───┐   ┌─────┬──────┬──────┬──────┬──────┬──────┐
+//        │  `  │ { │ & │  *  │ ( │ } │   │     │      │      │      │      │ bspc │
+//        ├─────┼───┼───┼─────┼───┼───┤   ├─────┼──────┼──────┼──────┼──────┼──────┤
+//        │ esc │ - │ $ │  %  │ ^ │ | │   │     │ rsft │ rgui │ ralt │ rctl │      │
+//        ├─────┼───┼───┼─────┼───┼───┤   ├─────┼──────┼──────┼──────┼──────┼──────┤
+//        │     │ ~ │ ! │  @  │ # │ ) │   │     │      │      │      │      │      │
+//        └─────┴───┴───┼─────┼───┼───┤   ├─────┼──────┼──────┼──────┴──────┴──────┘
+//                      │     │ ` │ _ │   │     │      │      │
+//                      └─────┴───┴───┘   └─────┴──────┴──────┘
       &kp GRAVE   &kp LEFT_BRACE   &kp AMPERSAND   &kp ASTRK     &kp LEFT_PARENTHESIS   &kp RIGHT_BRACE             &trans   &trans            &trans          &trans          &trans      &kp BACKSPACE
       &kp ESC     &kp MINUS        &kp DOLLAR      &kp PERCENT   &kp CARET              &kp PIPE                    &trans   &kp RIGHT_SHIFT   &kp RIGHT_WIN   &kp RIGHT_ALT   &kp RCTRL   &trans
       &trans      &kp TILDE        &kp EXCL        &kp AT        &kp HASH               &kp RIGHT_PARENTHESIS       &trans   &trans            &trans          &trans          &trans      &trans
-                                                   &none         &none                  &kp UNDER                   &trans   &trans            &trans
+                                                   &none         &kp GRAVE              &kp UNDER                   &trans   &trans            &trans
                         >;
                 };
                 num_layer {
