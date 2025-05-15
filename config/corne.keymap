@@ -57,11 +57,12 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
 };
 
 &lt{
-    flavor = "tap-unless-interrupted";
+    flavor = "hold-preferred";
 };
 
 &mt{
     flavor = "tap-unless-interrupted";
+    tapping-term-ms = <400>;
 };
 
 / {
