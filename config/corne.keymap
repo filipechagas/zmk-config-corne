@@ -168,19 +168,19 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
 
                 fun_layer {
                     bindings = <
-//        ┌─────┬──────────┬──────────┬──────────┬──────────┬──────────┐   ┌─────┬─────┬─────┬────┬─────┬──────┐
-//        │  `  │          │   caps   │  capsw   │          │          │   │     │ f7  │ f8  │ f9 │ f10 │ bspc │
-//        ├─────┼──────────┼──────────┼──────────┼──────────┼──────────┤   ├─────┼─────┼─────┼────┼─────┼──────┤
-//        │ esc │ bt_sel 0 │ bt_sel 1 │ bt_sel 2 │ bt_sel 3 │ bt_sel 4 │   │     │ f4  │ f5  │ f6 │ f11 │      │
-//        ├─────┼──────────┼──────────┼──────────┼──────────┼──────────┤   ├─────┼─────┼─────┼────┼─────┼──────┤
-//        │     │          │          │          │          │          │   │     │ f1  │ f2  │ f3 │ f12 │      │
-//        └─────┴──────────┴──────────┼──────────┼──────────┼──────────┤   ├─────┼─────┼─────┼────┴─────┴──────┘
-//                                    │          │          │          │   │     │     │     │
-//                                    └──────────┴──────────┴──────────┘   └─────┴─────┴─────┘
-      &kp GRAVE   &trans         &kp CAPS       &caps_word     &trans         &trans             &trans   &kp F7   &kp F8   &kp F9   &kp F10   &kp BACKSPACE
-      &kp ESC     &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4       &trans   &kp F4   &kp F5   &kp F6   &kp F11   &trans
-      &trans      &trans         &trans         &trans         &trans         &trans             &trans   &kp F1   &kp F2   &kp F3   &kp F12   &trans
-                                                &trans         &trans         &trans             &trans   &trans   &trans
+//        ┌─────┬──────────────┬──────────┬──────────┬──────────┬──────────┐   ┌─────┬─────┬─────┬────┬─────┬──────┐
+//        │  `  │   bt_sel 0   │ bt_sel 1 │ bt_sel 2 │ bt_sel 3 │ bt_sel 4 │   │     │ f7  │ f8  │ f9 │ f10 │ bspc │
+//        ├─────┼──────────────┼──────────┼──────────┼──────────┼──────────┤   ├─────┼─────┼─────┼────┼─────┼──────┤
+//        │ esc │ left_CONTROL │   lalt   │   lgui   │   lsft   │          │   │     │ f4  │ f5  │ f6 │ f11 │      │
+//        ├─────┼──────────────┼──────────┼──────────┼──────────┼──────────┤   ├─────┼─────┼─────┼────┼─────┼──────┤
+//        │     │              │          │          │          │          │   │     │ f1  │ f2  │ f3 │ f12 │      │
+//        └─────┴──────────────┴──────────┼──────────┼──────────┼──────────┤   ├─────┼─────┼─────┼────┴─────┴──────┘
+//                                        │          │          │          │   │     │     │     │
+//                                        └──────────┴──────────┴──────────┘   └─────┴─────┴─────┘
+      &kp GRAVE   &bt BT_SEL 0       &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3     &bt BT_SEL 4       &trans   &kp F7   &kp F8   &kp F9   &kp F10   &kp BACKSPACE
+      &kp ESC     &kp LEFT_CONTROL   &kp LEFT_ALT   &kp LEFT_WIN   &kp LEFT_SHIFT   &trans             &trans   &kp F4   &kp F5   &kp F6   &kp F11   &trans
+      &trans      &trans             &trans         &trans         &trans           &trans             &trans   &kp F1   &kp F2   &kp F3   &kp F12   &trans
+                                                    &trans         &trans           &trans             &trans   &trans   &trans
                     >;
                 };
         };
