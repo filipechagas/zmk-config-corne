@@ -217,11 +217,11 @@ layers:
   - {type: held}
   fun:
   - '`'
-  - {t: ▽, type: trans}
-  - $$mdi:keyboard-caps$$
-  - $$mdi:format-letter-case-upper$$
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '0', h: '$$mdi:bluetooth$$'}
+  - {t: '1', h: '$$mdi:bluetooth$$'}
+  - {t: '2', h: '$$mdi:bluetooth$$'}
+  - {t: '3', h: '$$mdi:bluetooth$$'}
+  - {t: '4', h: '$$mdi:bluetooth$$'}
   - {t: ▽, type: trans}
   - F7
   - F8
@@ -229,11 +229,11 @@ layers:
   - F10
   - $$mdi:backspace-outline$$
   - $$mdi:keyboard-esc$$
-  - {t: '0', h: '$$mdi:bluetooth$$'}
-  - {t: '1', h: '$$mdi:bluetooth$$'}
-  - {t: '2', h: '$$mdi:bluetooth$$'}
-  - {t: '3', h: '$$mdi:bluetooth$$'}
-  - {t: '4', h: '$$mdi:bluetooth$$'}
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-shift$$
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F4
   - F5
