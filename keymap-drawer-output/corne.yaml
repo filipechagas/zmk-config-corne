@@ -137,8 +137,8 @@ layers:
   - '4'
   - '5'
   - '6'
-  - '7'
-  - '8'
+  - HOME
+  - END
   - '9'
   - '0'
   - $$mdi:backspace-outline$$
@@ -152,8 +152,8 @@ layers:
   - $$mdi:arrow-down$$
   - $$mdi:arrow-up$$
   - $$mdi:arrow-right$$
-  - $$mdi:arrow-up$$
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -164,8 +164,8 @@ layers:
   - $$material:keyboard_double_arrow_left$$
   - $$material:keyboard_double_arrow_right$$
   - {t: ▽, type: trans}
-  - $$mdi:arrow-down$$
-  - $$mdi:arrow-right$$
+  - ''
+  - ''
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -173,10 +173,10 @@ layers:
   - {t: ▽, type: trans}
   - $$mdi:function$$
   adj:
-  - '`'
+  - AltGr+`
   - {t: ▽, type: trans}
-  - $$mdi:keyboard-caps$$
-  - $$mdi:format-letter-case-upper$$
+  - {t: ▽, type: trans}
+  - AltGr+E
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -186,10 +186,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
+  - AltGr+~
   - ''
   - ''
-  - ''
-  - ''
+  - AltGr+^
   - ''
   - $$mdi:volume-off$$
   - $$mdi:volume-minus$$
@@ -200,6 +200,7 @@ layers:
   - ''
   - ''
   - ''
+  - AltGr+,
   - ''
   - ''
   - ''
@@ -207,11 +208,10 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - {t: ▽, type: trans}
+  - $$mdi:keyboard-caps$$
   - $$mdi:function$$
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - AltGr+`
+  - AltGr+'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
