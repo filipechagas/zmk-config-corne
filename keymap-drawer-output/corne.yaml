@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - $$mdi:backspace-outline$$
+  - DEL
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: A, h: '$$mdi:apple-keyboard-control$$'}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
@@ -153,7 +153,7 @@ layers:
   - $$mdi:arrow-up$$
   - $$mdi:arrow-right$$
   - ''
-  - ''
+  - PSCRN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -176,7 +176,7 @@ layers:
   - AltGr+`
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - AltGr+E
+  - AltGr+'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -189,7 +189,7 @@ layers:
   - AltGr+~
   - ''
   - ''
-  - AltGr+^
+  - AltGr+6
   - ''
   - $$mdi:volume-off$$
   - $$mdi:volume-minus$$
