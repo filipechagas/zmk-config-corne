@@ -82,7 +82,7 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
                 default_layer {
                         bindings = <
 //        ┌─────────────┬─────────────┬─────────────┬──────────────┬──────────────┬─────────────┐   ┌─────┬─────────────┬───────────────┬─────────────┬─────────────┬──────┐
-//        │   &trave    │      Q      │      W      │      E       │      R       │      T      │   │  Y  │      U      │       I       │      O      │      P      │ bspc │
+//        │   &trave    │      Q      │      W      │      E       │      R       │      T      │   │  Y  │      U      │       I       │      O      │      P      │ del  │
 //        ├─────────────┼─────────────┼─────────────┼──────────────┼──────────────┼─────────────┤   ├─────┼─────────────┼───────────────┼─────────────┼─────────────┼──────┤
 //        │ mt lctl esc │ &hml lctl A │ &hml lalt S │ &hml lgui D  │ &hml lsft F  │      G      │   │  H  │ &hmr rsft J │  &hmr rgui K  │ &hmr lalt L │ &hmr rctl ; │  '   │
 //        ├─────────────┼─────────────┼─────────────┼──────────────┼──────────────┼─────────────┤   ├─────┼─────────────┼───────────────┼─────────────┼─────────────┼──────┤
@@ -90,7 +90,7 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
 //        └─────────────┴─────────────┴─────────────┼──────────────┼──────────────┼─────────────┤   ├─────┼─────────────┼───────────────┼─────────────┴─────────────┴──────┘
 //                                                  │ lt NAV_L esc │ lt NUM_L tab │ mt lgui spc │   │ ent │ lt SYM_L '  │ lt ADJ_L bspc │
 //                                                  └──────────────┴──────────────┴─────────────┘   └─────┴─────────────┴───────────────┘
-      &trave          &kp Q          &kp W             &kp E             &kp R           &kp T                    &kp Y       &kp U                    &kp I              &kp O             &kp P             &kp BSPC
+      &trave          &kp Q          &kp W             &kp E             &kp R           &kp T                    &kp Y       &kp U                    &kp I              &kp O             &kp P             &kp DEL
       &mt LCTRL ESC   &hml LCTRL A   &hml LEFT_ALT S   &hml LEFT_WIN D   &hml LSHIFT F   &kp G                    &kp H       &hmr RSHIFT J            &hmr RIGHT_WIN K   &hmr LEFT_ALT L   &hmr RCTRL SEMI   &kp SINGLE_QUOTE
       &kp LSHFT       &kp Z          &kp X             &kp C             &kp V           &kp B                    &kp N       &kp M                    &kp COMMA          &kp DOT           &kp FSLH          &kp RSHFT
                                                        &lt NAV_L ESC     &lt NUM_L TAB   &mt LEFT_WIN SPACE       &kp ENTER   &lt SYM_L SINGLE_QUOTE   &lt ADJ_L BSPC
@@ -135,14 +135,14 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
 //        ┌─────┬──────────────┬──────┬──────┬──────┬─────┐   ┌──────┬─────────┬──────────┬──────┬─────┬──────┐
 //        │  `  │      1       │  2   │  3   │  4   │  5  │   │  6   │  home   │   end    │  9   │  0  │ bspc │
 //        ├─────┼──────────────┼──────┼──────┼──────┼─────┤   ├──────┼─────────┼──────────┼──────┼─────┼──────┤
-//        │ esc │ left_CONTROL │ lalt │ lgui │ lsft │     │   │ left │  down   │    up    │ rght │     │      │
+//        │ esc │ left_CONTROL │ lalt │ lgui │ lsft │     │   │ left │  down   │    up    │ rght │     │ pscr │
 //        ├─────┼──────────────┼──────┼──────┼──────┼─────┤   ├──────┼─────────┼──────────┼──────┼─────┼──────┤
 //        │     │              │      │      │      │     │   │      │ lgui({) │ lgui(})  │      │     │      │
 //        └─────┴──────────────┴──────┼──────┼──────┼─────┤   ├──────┼─────────┼──────────┼──────┴─────┴──────┘
 //                                    │      │      │     │   │      │         │ mo FUN_L │
 //                                    └──────┴──────┴─────┘   └──────┴─────────┴──────────┘
       &kp GRAVE   &kp N1             &kp N2         &kp N3         &kp N4           &kp N5       &kp N6           &kp HOME             &kp END               &kp N9            &kp N0   &kp BACKSPACE
-      &kp ESC     &kp LEFT_CONTROL   &kp LEFT_ALT   &kp LEFT_WIN   &kp LEFT_SHIFT   &trans       &kp LEFT_ARROW   &kp DOWN_ARROW       &kp UP_ARROW          &kp RIGHT_ARROW   &none    &none
+      &kp ESC     &kp LEFT_CONTROL   &kp LEFT_ALT   &kp LEFT_WIN   &kp LEFT_SHIFT   &trans       &kp LEFT_ARROW   &kp DOWN_ARROW       &kp UP_ARROW          &kp RIGHT_ARROW   &none    &kp PSCRN
       &trans      &trans             &trans         &trans         &trans           &trans       &trans           &kp LG(LEFT_BRACE)   &kp LG(RIGHT_BRACE)   &trans            &none    &none
                                                     &trans         &trans           &trans       &trans           &trans               &mo FUN_L
                     >;
@@ -151,18 +151,18 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
                 adj_layer {
                     bindings = <
 //        ┌─────────┬─────────┬─────┬──────────┬─────────┬─────────┐   ┌──────┬──────┬──────┬─────┬─────┬───────┐
-//        │ ralt(`) │         │     │ ralt(E)  │         │         │   │      │      │      │     │     │       │
+//        │ ralt(`) │         │     │ ralt(')  │         │         │   │      │      │      │     │     │       │
 //        ├─────────┼─────────┼─────┼──────────┼─────────┼─────────┤   ├──────┼──────┼──────┼─────┼─────┼───────┤
-//        │         │ ralt(~) │     │          │ ralt(^) │         │   │ mute │ vold │ volu │     │     │ capsw │
+//        │         │ ralt(~) │     │          │ ralt(6) │         │   │ mute │ vold │ volu │     │     │ capsw │
 //        ├─────────┼─────────┼─────┼──────────┼─────────┼─────────┤   ├──────┼──────┼──────┼─────┼─────┼───────┤
 //        │         │         │     │ ralt(,)  │         │         │   │      │      │      │     │     │ caps  │
 //        └─────────┴─────────┴─────┼──────────┼─────────┼─────────┤   ├──────┼──────┼──────┼─────┴─────┴───────┘
 //                                  │ mo FUN_L │ ralt(`) │ ralt(') │   │      │      │      │
 //                                  └──────────┴─────────┴─────────┘   └──────┴──────┴──────┘
-      &kp RA(GRAVE)   &trans          &trans   &kp RA(E)       &trans          &trans                     &trans       &trans         &trans         &trans   &trans   &trans
-      &none           &kp RA(TILDE)   &none    &none           &kp RA(CARET)   &none                      &kp C_MUTE   &kp C_VOL_DN   &kp C_VOL_UP   &none    &none    &caps_word
-      &none           &none           &none    &kp RA(COMMA)   &none           &none                      &none        &none          &none          &none    &none    &kp CAPS
-                                               &mo FUN_L       &kp RA(GRAVE)   &kp RA(SINGLE_QUOTE)       &trans       &trans         &trans
+      &kp RA(GRAVE)   &trans          &trans   &kp RA(SINGLE_QUOTE)   &trans             &trans                     &trans       &trans         &trans         &trans   &trans   &trans
+      &none           &kp RA(TILDE)   &none    &none                  &kp RA(NUMBER_6)   &none                      &kp C_MUTE   &kp C_VOL_DN   &kp C_VOL_UP   &none    &none    &caps_word
+      &none           &none           &none    &kp RA(COMMA)          &none              &none                      &none        &none          &none          &none    &none    &kp CAPS
+                                               &mo FUN_L              &kp RA(GRAVE)      &kp RA(SINGLE_QUOTE)       &trans       &trans         &trans
                     >;
                 };
 
