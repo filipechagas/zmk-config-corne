@@ -188,7 +188,7 @@ layers:
   - ''
   - AltGr+~
   - ''
-  - ''
+  - $$mdi:apple-keyboard-command$$
   - AltGr+6
   - ''
   - $$mdi:volume-off$$
