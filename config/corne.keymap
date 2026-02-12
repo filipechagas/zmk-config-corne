@@ -160,7 +160,7 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
 //                                  │ mo FUN_L │ ralt(`) │ ralt(') │   │      │      │      │
 //                                  └──────────┴─────────┴─────────┘   └──────┴──────┴──────┘
       &kp RA(GRAVE)   &trans          &trans   &kp RA(SINGLE_QUOTE)   &trans             &trans                     &trans       &trans         &trans         &trans   &trans   &trans
-      &none           &kp RA(TILDE)   &none    &none                  &kp RA(NUMBER_6)   &none                      &kp C_MUTE   &kp C_VOL_DN   &kp C_VOL_UP   &none    &none    &caps_word
+      &none           &kp RA(TILDE)   &none    &kp LEFT_WIN           &kp RA(NUMBER_6)   &none                      &kp C_MUTE   &kp C_VOL_DN   &kp C_VOL_UP   &none    &none    &caps_word
       &none           &none           &none    &kp RA(COMMA)          &none              &none                      &none        &none          &none          &none    &none    &kp CAPS
                                                &mo FUN_L              &kp RA(GRAVE)      &kp RA(SINGLE_QUOTE)       &trans       &trans         &trans
                     >;
