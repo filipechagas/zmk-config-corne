@@ -7,7 +7,9 @@ git config --global --add safe.directory /zmk-config/zmk || true
 git config --global --add safe.directory /zmk-config || true
 
 # Initialize and update west (idempotent init)
-west init -l config || true
+if [ ! -d .west ]; then
+  west init -l config
+fi
 west update
 
 # Optional: show manifest status for debugging
