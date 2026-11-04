@@ -1,0 +1,23 @@
+# Custom ZMK module: keyboard status over a vendor BLE GATT service.
+# Only the split central (left half) talks to the host, so the right half
+# never builds this.
+
+config ZMK_STATUS_GATT
+    bool "Expose keyboard status over a custom BLE GATT service"
+    default y
+    depends on ZMK_SPLIT_ROLE_CENTRAL && ZMK_BLE
+    help
+      Adds a 128-bit GATT service (7a6f0001-2c1e-4b8a-9d33-5e4c0f1a9b20) with
+      a status characteristic (layer, BLE profile, split link, battery) and a
+      firmware revision characteristic, read by the host bar plugin.
+
+if ZMK_STATUS_GATT
+
+config ZMK_STATUS_GATT_NOTIFY_DELAY_MS
+    int "Delay used to coalesce status notifications, in milliseconds"
+    default 50
+    help
+      Changes that happen within this window after the first one are sent
+      as a single notification carrying the latest state.
+
+endif
